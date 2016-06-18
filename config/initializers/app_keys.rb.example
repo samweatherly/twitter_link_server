@@ -1,0 +1,4 @@
+ENV["twitter_consumer_key"] = 'put Twitter consumer key (api key) here'
+ENV["twitter_consumer_secret"] = 'puts Twitter consumer secret (api secret) here'
+ENV["twitter_access_token"] = 'puts twitter access token here'
+ENV["twitter_access_token_secret"] = 'puts twitter access_token_secret here'

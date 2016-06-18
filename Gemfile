@@ -22,10 +22,13 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
-
+gem 'bootstrap-sass'
+gem 'rack-cors', :require => 'rack/cors'
+gem 'twitter'
 # Use ActiveModel has_secure_password
-# gem 'bcrypt', '~> 3.1.7'
+gem 'bcrypt', '~> 3.1.7'
 
+gem 'rails_12factor', group: :production
 # Use Unicorn as the app server
 # gem 'unicorn'
 
@@ -42,7 +45,7 @@ group :development do
   gem 'web-console', '~> 2.0'
   gem 'awesome_print'
   gem 'interactive_editor'
-  gem 'hirb'  
+  gem 'hirb'
 
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
