@@ -3,7 +3,7 @@ Rails.application.routes.draw do
 
   namespace :api, defaults: {format: :json} do
     namespace :v1 do
-      resources :twitter_feed, only: [:index]
+      resources :twitter_feeds, only: [:index]
     end
   end
 
